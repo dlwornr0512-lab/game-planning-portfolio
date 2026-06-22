@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Game Planning Portfolio | 이재국</title>
+  <meta name="description" content="게임 기획자 이재국의 게임 프로젝트 포트폴리오 사이트" />
+  <link rel="stylesheet" href="css/style.css?v=project-align-v8" />
+  <script defer src="js/projects.js"></script>
+  <script defer src="js/main.js?v=project-align-v8"></script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav" aria-label="주요 메뉴">
+      <a class="brand" href="#home" aria-label="홈으로 이동">
+        <span class="brand-mark">GP</span>
+        <span class="brand-text">Game Planning Portfolio</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-label="메뉴 열기" aria-expanded="false" data-nav-toggle>
+        <span></span><span></span><span></span>
+      </button>
+      <div class="nav-links" data-nav-links>
+        <a href="#home">Home</a>
+        <a href="#leonard">Leonard</a>
+        <a href="#armonia">Armonia</a>
+        <a href="#the-last-dance">Last Dance</a>
+        <a href="#timeline">Timeline</a>
+        <a href="#about">About</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="intro-page" id="home">
+      <div class="intro-bg" aria-hidden="true"></div>
+      <div class="container intro-content reveal">
+        <p class="eyebrow">Game Planner Portfolio</p>
+        <h1>기획서와 프로토타입으로 증명하는 게임 프로젝트 포트폴리오</h1>
+        <div class="intro-actions">
+          <a class="btn primary" href="#leonard">프로젝트 보기</a>
+          <a class="btn ghost" href="#timeline">작업 히스토리 보기</a>
+        </div>
+      </div>
+      <a href="#leonard" class="scroll-cue" aria-label="다음 섹션으로 이동"><span>Scroll</span><i></i></a>
+    </section>
+
+    <div data-project-sections></div>
+
+    <section class="timeline-section section-panel" id="timeline">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Project Timeline</p>
+          <h2>작업 히스토리</h2>
+          <p>
+            각 프로젝트를 어떤 순서로 구상하고 문서화했는지 정리한 제작 과정입니다.
+            날짜는 월 단위로 정리했으며, 나중에 실제 작업 기간에 맞춰 수정할 수 있습니다.
+          </p>
+        </div>
+        <div class="timeline" data-timeline></div>
+      </div>
+    </section>
+
+    <section class="about-section section-panel" id="about">
+      <div class="container">
+        <div class="about-layout">
+          <article class="about-card reveal">
+            <p class="eyebrow">About Me</p>
+            <h2>게임 기획자 지망생 이재국</h2>
+            <p data-profile-intro></p>
+            <div class="interest-list">
+              <span>전투 시스템 기획</span>
+              <span>레벨 디자인</span>
+              <span>게임 메카닉스 문서화</span>
+              <span>세계관 / 스토리 구조 설계</span>
+              <span>콘텐츠 시스템 기획</span>
+              <span>서비스 지표 / 출시 전략 기획</span>
+            </div>
+          </article>
+
+          <article class="contact-card reveal">
+            <p class="eyebrow">Contact</p>
+            <h3>게임 기획 포지션을 목표로 포트폴리오를 준비하고 있습니다.</h3>
+            <p>전투 시스템, 레벨 디자인, 콘텐츠 시스템, 게임 문서화 업무에 관심이 있습니다.</p>
+            <ul class="contact-list">
+              <li><strong>Email</strong><a href="mailto:dlwornr0512@gmail.com">dlwornr0512@gmail.com</a></li>
+              <li><strong>GitHub</strong><span data-github>추후 입력</span></li>
+              <li><strong>Notion</strong><span data-notion>추후 입력</span></li>
+              <li><strong>YouTube</strong><span data-youtube>추후 입력</span></li>
+            </ul>
+          </article>
+        </div>
+
+        <div class="section-head compact reveal">
+          <p class="eyebrow">Planning Skills</p>
+          <h2>기획 역량</h2>
+        </div>
+        <div class="skill-grid" data-skills></div>
+
+        <div class="section-head compact reveal">
+          <p class="eyebrow">Tools</p>
+          <h2>사용 툴</h2>
+        </div>
+        <div class="tool-grid" data-tools></div>
+
+        <p class="final-note reveal">
+          각 프로젝트의 기획서는 해당 프로젝트 섹션의 <strong>기획서 모아보기</strong> 버튼에서 확인할 수 있습니다.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span data-year></span> 이재국 Game Planning Portfolio</p>
+      <a href="#home">Back to top</a>
+    </div>
+  </footer>
+
+  <div class="modal" data-modal hidden>
+    <div class="modal-backdrop" data-modal-close></div>
+    <section class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <button class="modal-close" type="button" data-modal-close aria-label="닫기">×</button>
+      <div class="modal-head">
+        <p class="eyebrow" data-modal-eyebrow>Portfolio</p>
+        <h2 id="modal-title" data-modal-title>Modal Title</h2>
+      </div>
+      <div class="modal-body" data-modal-body></div>
+    </section>
+  </div>
+</body>
+</html>
