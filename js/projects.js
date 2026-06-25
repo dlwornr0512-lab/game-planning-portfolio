@@ -39,7 +39,7 @@ const PROJECTS = [
       "레벨 디자인, 플레이 테스트, 서비스 지표 문서화"
     ],
     documents: [
-      { title: "개발제안서", file: "assets/pdfs/leonard/development_proposal.pdf" },
+      { title: "개발제안서", file: "assets/pdfs/leonard/WOL_development proposal.pdf" },
       { title: "게임스토리 & 게임 시나리오", file: "assets/pdfs/leonard/story_scenario.pdf" },
       { title: "캐릭터 컨셉 기획서", file: "assets/pdfs/leonard/character_concept.pdf" },
       { title: "배경 컨셉 기획서", file: "assets/pdfs/leonard/world_concept.pdf" },
