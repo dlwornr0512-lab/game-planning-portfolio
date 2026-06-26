@@ -16,6 +16,45 @@ const PROFILE = {
 
 const PROJECTS = [
   {
+    id: "the-last-dance",
+    navTitle: "Last Dance",
+    title: "The Last Dance",
+    englishTitle: "The Last Dance",
+    category: "Personal Project",
+    genre: "Action Roguelike",
+    theme: "중세와 동양 무사 · 6가지 무기 · 7개의 죄악",
+    image: "assets/images/the-last-dance-bg.png",
+    align: "left",
+    color: "crimson",
+    summary:
+      "중세와 동양 무사 테마가 결합된 세계를 배경으로, 주인공이 한손검, 단검, 레이피어, 창, 태도, 대검의 6가지 무기를 활용해 7개의 죄악을 상징하는 적들을 물리치는 액션 로그라이크 프로젝트입니다.",
+    storyIntro:
+      "죽음과 부활을 반복하는 무사가 6가지 무기를 다루며 7개의 죄악을 상징하는 적들에게 맞서는 이야기입니다.",
+    role:
+      "개인 프로젝트로 무기별 전투 정체성, 로그라이크 반복 구조, 보스 테마와 성장 시스템을 기획했습니다.",
+    points: [
+      "한손검, 단검, 레이피어, 창, 태도, 대검의 6무기 전투 스타일",
+      "7개의 죄악을 상징하는 보스와 지역 테마",
+      "죽음과 부활을 반복하며 빌드와 숙련도를 쌓는 로그라이크 구조",
+      "전투 메카닉스, 캐릭터 성장, 데이터 테이블 기반 문서화"
+    ],
+    documents: [
+      { title: "개발제안서", file: "assets/pdfs/the-last-dance/development_proposal.pdf" },
+      { title: "게임스토리 & 게임 시나리오", file: "assets/pdfs/the-last-dance/story_scenario.pdf" },
+      { title: "캐릭터 컨셉 기획서", file: "assets/pdfs/the-last-dance/character_concept.pdf" },
+      { title: "배경 컨셉 기획서", file: "assets/pdfs/the-last-dance/world_concept.pdf" },
+      { title: "게임 메카닉스 기획서", file: "assets/pdfs/the-last-dance/game_mechanics.pdf" },
+      { title: "게임 콘텐츠 시스템 기획서", file: "assets/pdfs/the-last-dance/content_system.pdf" },
+      { title: "레벨 디자인 기획서", file: "assets/pdfs/the-last-dance/level_design.pdf" },
+      { title: "게임 UI 디자인 기획서", file: "assets/pdfs/the-last-dance/ui_design.pdf" },
+      { title: "게임 서비스 기획서", file: "assets/pdfs/the-last-dance/service_plan.pdf" }
+    ],
+    video: {
+      title: "The Last Dance 프로토타입 플레이 영상",
+      youtubeId: "REPLACE_WITH_YOUTUBE_ID"
+    }
+  },
+  {
     id: "leonard",
     navTitle: "Leonard",
     title: "레오나르의 날개",
@@ -93,45 +132,6 @@ const PROJECTS = [
       youtubeId: "REPLACE_WITH_YOUTUBE_ID"
     }
   },
-  {
-    id: "the-last-dance",
-    navTitle: "Last Dance",
-    title: "The Last Dance",
-    englishTitle: "The Last Dance",
-    category: "Personal Project",
-    genre: "Action Roguelike",
-    theme: "중세와 동양 무사 · 6가지 무기 · 7개의 죄악",
-    image: "assets/images/the-last-dance-bg.png",
-    align: "left",
-    color: "crimson",
-    summary:
-      "중세와 동양 무사 테마가 결합된 세계를 배경으로, 주인공이 한손검, 단검, 레이피어, 창, 태도, 대검의 6가지 무기를 활용해 7개의 죄악을 상징하는 적들을 물리치는 액션 로그라이크 프로젝트입니다.",
-    storyIntro:
-      "죽음과 부활을 반복하는 무사가 6가지 무기를 다루며 7개의 죄악을 상징하는 적들에게 맞서는 이야기입니다.",
-    role:
-      "개인 프로젝트로 무기별 전투 정체성, 로그라이크 반복 구조, 보스 테마와 성장 시스템을 기획했습니다.",
-    points: [
-      "한손검, 단검, 레이피어, 창, 태도, 대검의 6무기 전투 스타일",
-      "7개의 죄악을 상징하는 보스와 지역 테마",
-      "죽음과 부활을 반복하며 빌드와 숙련도를 쌓는 로그라이크 구조",
-      "전투 메카닉스, 캐릭터 성장, 데이터 테이블 기반 문서화"
-    ],
-    documents: [
-      { title: "개발제안서", file: "assets/pdfs/the-last-dance/development_proposal.pdf" },
-      { title: "게임스토리 & 게임 시나리오", file: "assets/pdfs/the-last-dance/story_scenario.pdf" },
-      { title: "캐릭터 컨셉 기획서", file: "assets/pdfs/the-last-dance/character_concept.pdf" },
-      { title: "배경 컨셉 기획서", file: "assets/pdfs/the-last-dance/world_concept.pdf" },
-      { title: "게임 메카닉스 기획서", file: "assets/pdfs/the-last-dance/game_mechanics.pdf" },
-      { title: "게임 콘텐츠 시스템 기획서", file: "assets/pdfs/the-last-dance/content_system.pdf" },
-      { title: "레벨 디자인 기획서", file: "assets/pdfs/the-last-dance/level_design.pdf" },
-      { title: "게임 UI 디자인 기획서", file: "assets/pdfs/the-last-dance/ui_design.pdf" },
-      { title: "게임 서비스 기획서", file: "assets/pdfs/the-last-dance/service_plan.pdf" }
-    ],
-    video: {
-      title: "The Last Dance 프로토타입 플레이 영상",
-      youtubeId: "REPLACE_WITH_YOUTUBE_ID"
-    }
-  }
 ];
 
 const TIMELINE = [
