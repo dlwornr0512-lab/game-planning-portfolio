@@ -38,7 +38,7 @@ function renderProjectSections() {
           </div>
 
           <p class="project-subtitle">${project.theme}</p>
-          <p class="project-summary">${project.storyIntro || project.summary}</p>
+          <p class="project-summary">${project.cardSummary || project.storyIntro || project.summary}</p>
 
           <div class="project-actions">
             <button class="btn primary" type="button" data-open-detail="${project.id}">상세 보기</button>
@@ -154,7 +154,7 @@ function openProjectDetail(id) {
       <div class="detail-hero">
         <p class="eyebrow">${project.category} · ${project.genre}</p>
         <h2>${project.title}</h2>
-        <p>${project.summary}</p>
+        <p>${project.detailSummary || project.summary}</p>
       </div>
 
       <div class="detail-grid">
