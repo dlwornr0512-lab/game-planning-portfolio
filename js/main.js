@@ -43,7 +43,10 @@ function renderProjectSections() {
           <div class="project-actions">
             <button class="btn primary" type="button" data-open-detail="${project.id}">상세 보기</button>
             <button class="btn document" type="button" data-open-docs="${project.id}">문서 보기</button>
-            <button class="btn ghost" type="button" data-open-video="${project.id}">영상 보기</button>
+            ${project.simulator
+              ? `<a class="btn ghost" href="${project.simulator.url}" target="_blank" rel="noopener">게임 시뮬레이터</a>`
+              : `<button class="btn ghost" type="button" data-open-video="${project.id}">영상 보기</button>`
+            }
           </div>
         </article>
       </div>
@@ -176,7 +179,10 @@ function openProjectDetail(id) {
 
       <div class="detail-actions">
         <button class="btn document" type="button" data-open-docs="${project.id}">문서 보기</button>
-        <button class="btn ghost" type="button" data-open-video="${project.id}">영상 보기</button>
+        ${project.simulator
+          ? `<a class="btn ghost" href="${project.simulator.url}" target="_blank" rel="noopener">게임 시뮬레이터</a>`
+          : `<button class="btn ghost" type="button" data-open-video="${project.id}">영상 보기</button>`
+        }
       </div>
     </div>
   `);

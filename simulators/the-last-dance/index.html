@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Last Dance 게임 시뮬레이터</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      background: radial-gradient(circle at 50% 20%, #4b2230, #111217 62%);
+      color: #f8f1e8;
+      font-family: "Pretendard", "Malgun Gothic", system-ui, sans-serif;
+      line-height: 1.7;
+      padding: 32px;
+    }
+    main {
+      width: min(100%, 760px);
+      border: 1px solid rgba(255,255,255,.16);
+      border-radius: 28px;
+      background: rgba(0,0,0,.34);
+      box-shadow: 0 24px 80px rgba(0,0,0,.35);
+      padding: 34px;
+    }
+    h1 { margin: 0 0 12px; font-size: clamp(2rem, 6vw, 4rem); line-height: 1.1; }
+    p { color: #cfc5ba; }
+    code { color: #ffd99b; }
+    a { color: #ffd99b; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>The Last Dance<br />게임 시뮬레이터</h1>
+    <p>이 위치에 실제 게임 시뮬레이터 HTML 파일을 넣으면 포트폴리오의 <strong>게임 시뮬레이터</strong> 버튼으로 바로 실행됩니다.</p>
+    <p>현재 연결 경로: <code>simulators/the-last-dance/index.html</code></p>
+    <p>사용 중인 시뮬레이터 파일이 따로 있다면 이 <code>index.html</code> 파일을 교체하거나, <code>js/projects.js</code>의 <code>simulator.url</code> 값을 실제 파일 경로로 바꾸면 됩니다.</p>
+    <p><a href="../../index.html#the-last-dance">포트폴리오로 돌아가기</a></p>
+  </main>
+</body>
+</html>

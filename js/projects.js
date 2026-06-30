@@ -49,6 +49,10 @@ const PROJECTS = [
       { title: "게임 UI 디자인 기획서", file: "assets/pdfs/the-last-dance/ui_design.pdf" },
       { title: "게임 서비스 기획서", file: "assets/pdfs/the-last-dance/service_plan.pdf" }
     ],
+    simulator: {
+      title: "The Last Dance 게임 시뮬레이터",
+      url: "https://subtle-douhua-c8d501.netlify.app"
+    },
     video: {
       title: "The Last Dance 프로토타입 플레이 영상",
       youtubeId: "REPLACE_WITH_YOUTUBE_ID"

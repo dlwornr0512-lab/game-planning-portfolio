@@ -25,7 +25,7 @@ About / Planning Skills / Tools / Contact
 ```txt
 [프로젝트 상세 보기]
 [해당 게임 기획서 모아보기]
-[플레이 영상 보기]
+[플레이 영상 보기] 또는 [게임 시뮬레이터]
 ```
 
 ## 폴더 구조
@@ -82,6 +82,26 @@ assets/pdfs/leonard/development_proposal.pdf
 
 ```js
 { title: "개발제안서", file: "assets/pdfs/leonard/development_proposal.pdf" }
+```
+
+
+## The Last Dance 게임 시뮬레이터 연결 방법
+
+The Last Dance 섹션의 세 번째 버튼은 이제 `영상 보기` 대신 `게임 시뮬레이터`로 표시됩니다.
+기본 연결 위치는 아래 파일입니다.
+
+```txt
+simulators/the-last-dance/index.html
+```
+
+실제 게임 시뮬레이터 HTML 파일이 있다면 위 파일을 교체하면 됩니다.
+파일명이 다르거나 다른 폴더에 넣고 싶다면 `js/projects.js`에서 아래 값을 수정하세요.
+
+```js
+simulator: {
+  title: "The Last Dance 게임 시뮬레이터",
+  url: "simulators/the-last-dance/index.html"
+}
 ```
 
 ## YouTube 영상 넣는 방법
